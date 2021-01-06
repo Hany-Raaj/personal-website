@@ -7,15 +7,15 @@ body{
     margin: 10px 40px;
 }
 
-ul{
+.nav ul{
     list-style-type: none;
 }
 
-li{
+.nav li{
     display: inline;
 }
 
-li a{
+.nav li a{
     color: #3C3C3C;
     text-decoration: none;
     padding: 10px;
@@ -74,12 +74,12 @@ section{
     font-size: 40px;
 }
 
-.lastest-working{
+.latest-working{
     padding-top: 100px;
     background-color: #E5E5E5;
 }
 
-.lastest-working h1{
+.latest-working h1{
     text-align: center;
     font-size: 30px;
     padding-bottom: 50px;
@@ -118,6 +118,31 @@ section{
     position: absolute;
     margin-top: 135px;
     margin-left: 850px;
+}
+
+.bottom{
+    height: 450px;
+    margin-top: 150px;
+}
+
+#half-width{
+    margin-top: 60px;
+}
+
+.agile-preview{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: lightsalmon;
+    border-radius: 20px;
+}
+
+.agile-visit{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+    margin-left: 15px;
 }
 
 footer{
